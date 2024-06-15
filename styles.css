@@ -1,78 +1,77 @@
-/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
+    font-family: Arial, sans-serif; /* ページ全体のフォント */
+    margin: 20px; /* ページ全体の外側の余白 */
+    padding: 20px; /* ページ全体の内側の余白 */
+    background-color: #ffefd5; /* ページ全体の背景色 */
 }
 
 h1 {
-    color: #333;
+    color: #040404; /* 見出し（h1）の文字色 */
 }
 
 form {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* フォームの下部の余白 */
 }
 
 label {
-    display: block;
-    margin-top: 10px;
+    display: block; /* ラベルをブロック要素にする（新しい行に表示される） */
+    margin-top: 10px; /* ラベルの上部の余白 */
 }
 
 input, button {
-    margin-top: 5px;
+    margin-top: 5px; /* 入力フィールドとボタンの上部の余白 */
 }
 
 button {
-    display: block;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+    display: block; /* ボタンをブロック要素にする（新しい行に表示される） */
+    margin-top: 10px; /* ボタンの上部の余白 */
+    padding: 10px; /* ボタンの内側の余白 */
+    background-color: #007BFF; /* ボタンの背景色 */
+    color: #fff; /* ボタンの文字色 */
+    border: none; /* ボタンの境界線をなしにする */
+    cursor: pointer; /* ボタンにマウスを重ねたときにポインターを表示する */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* ボタンにマウスを重ねたときの背景色 */
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* リストのデフォルトのスタイル（通常はドット）をなしにする */
+    padding: 0; /* リストの内側の余白をなしにする */
 }
 
 li {
-    background-color: #fff;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
+    background-color: #fff; /* リストアイテムの背景色 */
+    margin-bottom: 10px; /* リストアイテムの下部の余白 */
+    padding: 10px; /* リストアイテムの内側の余白 */
+    border: 1px solid #0e0a0a; /* リストアイテムの境界線 */
 }
 
 @media (max-width: 600px) {
     body {
-        margin: 10px;
-        padding: 10px;
+        margin: 10px; /* ページ全体の外側の余白を小さくする（モバイルデバイス用） */
+        padding: 10px; /* ページ全体の内側の余白を小さくする（モバイルデバイス用） */
     }
 
     h1, h2 {
-        font-size: 1.5em;
+        font-size: 1.5em; /* 見出し（h1, h2）のフォントサイズを小さくする（モバイルデバイス用） */
     }
 
     label, input, button {
-        width: 100%;
-        margin-top: 5px;
+        width: 100%; /* ラベル、入力フィールド、ボタンの幅を100%にする（モバイルデバイス用） */
+        margin-top: 5px; /* 上部の余白を小さくする（モバイルデバイス用） */
     }
 
     input, button {
-        font-size: 1em;
+        font-size: 1em; /* 入力フィールドとボタンのフォントサイズを小さくする（モバイルデバイス用） */
     }
 
     button {
-        padding: 10px;
+        padding: 10px; /* ボタンの内側の余白を適度にする（モバイルデバイス用） */
     }
 
     li {
-        font-size: 1em;
+        font-size: 1em; /* リストアイテムのフォントサイズを小さくする（モバイルデバイス用） */
     }
 }
